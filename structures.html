@@ -3,10 +3,20 @@
 
   <head>
   
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>CP Guide</title>
-    <link href="./style.css" type="text/css" rel="stylesheet">
-    
+
+    <link href="assets/css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
   </head>
   
   <body>
@@ -16,93 +26,118 @@
       <h1 class="title">Competitive Programming Study Guide for C++ Users</h1>
       
       <!-- Link to another language version -->
-      <a style="padding: 3px" href="./structures.html" target="_self"><img src="img/us-icon.png" alt="en-us icon"></a> <a style="padding: 3px" href="./structures-ptbr.html" target="_self"><img src="img/br-icon.png" alt="pt-br icon"></a>
+      <a style="padding: 3px" href="./structures.html" target="_self"><img src="assets/img/us-icon.png" alt="en-us icon"></a>
+      <a style="padding: 3px" href="./pt-br/structures.html" target="_self"><img src="assets/img/br-icon.png" alt="pt-br icon"></a>
     </div>
     
     <!-- Navigation Bar -->
-    <ul class="navbar">
-      <li><a href="./index.html">Home Page</a></li>
-      <li><a href="./extra-resources.html">Extra Resources</a></li>
-      <div class="dropdown">
-        <button class="dropdown-button">List of Topics</button>
-        
-        <div class="dropdown-content">
-          <a href="./structures.html">Data Structures</a>
-          <a href="./dp.html">Dynamic Programming</a>
-          <a href="./graphs.html">Graphs</a>
-          <a href="./math.html">Math, Number Theory and Game Theory</a>
-          <a href="./strings.html">String Processing</a>
-          <a href="./geometry.html">Geometry</a>
-          <a href="./others.html">Others</a>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
         </div>
-        
-      </div>
-      
-    </ul>  
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="./index.html">Home Page</a></li>
+            <li><a href="./extra-resources.html">Extra Resources</a></li>
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                List of Topics <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="./structures.html">Data Structures</a></li>
+                <li><a href="./dp.html">Dynamic Programming</a></li>
+                <li><a href="./graphs.html">Graphs</a></li>
+                <li><a href="./math.html">Math, Number Theory and Game Theory</a></li>
+                <li><a href="./strings.html">String Processing</a></li>
+                <li><a href="./geometry.html">Geometry</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="./others.html">Others</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
     
     <!-- List of Links -->
     <h2 class="subtitle">Data Structures</h2>
-    
-    <table>
-      <tr>
-        <th>Disjoint-Set Union / Union-Find</th>
-        <td><a href="http://www.codcad.com/lesson/26">[PT-BR] Codcad</a></td>
-        <td><a href="https://cp-algorithms.com/data_structures/disjoint_set_union.html">[ENG] CP-Algorithms</a></td>
-        <td><a href="https://www.hackerearth.com/pt-br/practice/notes/disjoint-set-union-union-find/">[ENG] Hackerearth</a></td>
-        <td></td>
-      </tr>
-      
-      <tr>
-        <th>Segment Tree + Lazy Propagation</th>
-        <td><a href="http://www.codcad.com/lesson/53">[PT-BR] Codcad (Árvore de Segmentos)</a></td>
-        <td><a href="http://www.codcad.com/lesson/60">[PT-BR] Codcad (Propagação Lazy)</a></td>
-        <td><a href="https://cp-algorithms.com/data_structures/segment_tree.html">[ENG] CP-Algorithms (Segment Tree + Lazy Propagation)</a></td>
-        <td></td>
-      </tr>
-      
-      <tr>
-        <th>Binary Indexed Tree</th>
-        <td><a href="http://www.codcad.com/lesson/54">[PT-BR] Codcad</a></td>
-        <td><a href="https://www.topcoder.com/community/competitive-programming/tutorials/binary-indexed-trees/">[ENG] Topcoder</a></td>
-        <td><a href="https://cp-algorithms.com/data_structures/fenwick.html">[ENG] CP-Algorithms</a></td>
-        <td></td>
-      </tr>
-      
-      <tr>
-        <th>Binary Indexed Tree 2D</th>
-        <td><a href="http://www.codcad.com/lesson/62">[PT-BR] Codcad</a></td>
-        <td><a href="https://www.topcoder.com/community/competitive-programming/tutorials/binary-indexed-trees/#2d">[ENG] Topcoder</a></td>
-        <td><a href="https://iq.opengenus.org/2d-fenwick-tree/">[ENG] OpenGenus IQ</a></td>
-        <td></td>
-      </tr>
-      
-      <tr>
-        <th>Sparse Table</th>
-        <td><a href="https://www.hackerearth.com/practice/notes/sparse-table/">[ENG] Hackerearth</a></td>
-        <td><a href="http://adilet.org/blog/sparse-table/">[ENG] Adilet's Blog</a></td>
-        <td><a href="https://brilliant.org/wiki/sparse-table/">[ENG] Brilliant</a></td>
-        <td><a href="https://sites.google.com/site/ldsicufal/disciplinas/programacao-avancada/sparse-table---rmq">[PT-BR] LDS UFAL</a></td>
-      </tr>
-    </table>
-    
-    <div class="extra-links">
-      <p>More Topics</p>
-      <ul>
-        <li><a href="https://cp-algorithms.com/data_structures/sqrt_decomposition.html">[ENG] CP-Algorithms</a> (Square Root Decomposition + Mo's Algorithm)</li>
-        <li><a href="https://codeforces.com/blog/entry/15890">[ENG] Codeforces</a> (Many variations of Segment Trees)</li>
-        <li><a href="https://codeforces.com/blog/entry/44351">[ENG] Codeforces</a> (DSU on Trees)</li>
-        <li><a href="https://cp-algorithms.com/data_structures/treap.html">[ENG] CP-Algorithms</a> (Treap)</li>
-        <li><a href="https://codeforces.com/blog/entry/61364">[ENG] Codeforces</a> (Search in BIT in O(log(n)))</li>
-        <li><a href="https://cp-algorithms.com/data_structures/sqrt-tree.html">[ENG] CP-Algorithms</a> (Square Root Tree)</li>
-        <li><a href="https://codeforces.com/blog/entry/53810">[ENG] Codeforces</a> (Query Min/Max over all fixed subarray/submatrix efficiently)</li>
-        <li><a href="https://codeforces.com/blog/entry/18051">[ENG] Codeforces</a> (Efficient implementation of Segment Trees)</li>
-        <li><a href="https://codeforces.com/blog/entry/57319">[ENG] Codeforces</a> (Segment Tree Beats)</li>
-        <li><a href="https://codeforces.com/blog/entry/45485">[ENG] Codeforces</a> (2D RMQ using Sparse Tables)</li>
-        <li><a href="http://rachitiitr.blogspot.com/2017/06/wavelet-trees-wavelet-trees-editorial.html">[ENG] Codeforces</a> (Wavelet Tree)</li>
-      </ul>
+
+
+    <div class="container-fluid">
+
+      <table class="table table-bordered table-responsive">
+        <tr>
+          <th>Disjoint-Set Union / Union-Find</th>
+          <td><a href="http://www.codcad.com/lesson/26">[PT-BR] Codcad</a></td>
+          <td><a href="https://cp-algorithms.com/data_structures/disjoint_set_union.html">[ENG] CP-Algorithms</a></td>
+          <td><a href="https://www.hackerearth.com/pt-br/practice/notes/disjoint-set-union-union-find/">[ENG] Hackerearth</a></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <th>Segment Tree + Lazy Propagation</th>
+          <td><a href="http://www.codcad.com/lesson/53">[PT-BR] Codcad (Árvore de Segmentos)</a></td>
+          <td><a href="http://www.codcad.com/lesson/60">[PT-BR] Codcad (Propagação Lazy)</a></td>
+          <td><a href="https://cp-algorithms.com/data_structures/segment_tree.html">[ENG] CP-Algorithms (Segment Tree + Lazy Propagation)</a></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <th>Binary Indexed Tree</th>
+          <td><a href="http://www.codcad.com/lesson/54">[PT-BR] Codcad</a></td>
+          <td><a href="https://www.topcoder.com/community/competitive-programming/tutorials/binary-indexed-trees/">[ENG] Topcoder</a></td>
+          <td><a href="https://cp-algorithms.com/data_structures/fenwick.html">[ENG] CP-Algorithms</a></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <th>Binary Indexed Tree 2D</th>
+          <td><a href="http://www.codcad.com/lesson/62">[PT-BR] Codcad</a></td>
+          <td><a href="https://www.topcoder.com/community/competitive-programming/tutorials/binary-indexed-trees/#2d">[ENG] Topcoder</a></td>
+          <td><a href="https://iq.opengenus.org/2d-fenwick-tree/">[ENG] OpenGenus IQ</a></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <th>Sparse Table</th>
+          <td><a href="https://www.hackerearth.com/practice/notes/sparse-table/">[ENG] Hackerearth</a></td>
+          <td><a href="http://adilet.org/blog/sparse-table/">[ENG] Adilet's Blog</a></td>
+          <td><a href="https://brilliant.org/wiki/sparse-table/">[ENG] Brilliant</a></td>
+          <td><a href="https://sites.google.com/site/ldsicufal/disciplinas/programacao-avancada/sparse-table---rmq">[PT-BR] LDS UFAL</a></td>
+        </tr>
+      </table>
+
+      <div class="extra-links">
+        <p>More Topics</p>
+        <ul>
+          <li><a href="https://cp-algorithms.com/data_structures/sqrt_decomposition.html">[ENG] CP-Algorithms</a> (Square Root Decomposition + Mo's Algorithm)</li>
+          <li><a href="https://codeforces.com/blog/entry/15890">[ENG] Codeforces</a> (Many variations of Segment Trees)</li>
+          <li><a href="https://codeforces.com/blog/entry/44351">[ENG] Codeforces</a> (DSU on Trees)</li>
+          <li><a href="https://cp-algorithms.com/data_structures/treap.html">[ENG] CP-Algorithms</a> (Treap)</li>
+          <li><a href="https://codeforces.com/blog/entry/61364">[ENG] Codeforces</a> (Search in BIT in O(log(n)))</li>
+          <li><a href="https://cp-algorithms.com/data_structures/sqrt-tree.html">[ENG] CP-Algorithms</a> (Square Root Tree)</li>
+          <li><a href="https://codeforces.com/blog/entry/53810">[ENG] Codeforces</a> (Query Min/Max over all fixed subarray/submatrix efficiently)</li>
+          <li><a href="https://codeforces.com/blog/entry/18051">[ENG] Codeforces</a> (Efficient implementation of Segment Trees)</li>
+          <li><a href="https://codeforces.com/blog/entry/57319">[ENG] Codeforces</a> (Segment Tree Beats)</li>
+          <li><a href="https://codeforces.com/blog/entry/45485">[ENG] Codeforces</a> (2D RMQ using Sparse Tables)</li>
+          <li><a href="http://rachitiitr.blogspot.com/2017/06/wavelet-trees-wavelet-trees-editorial.html">[ENG] Codeforces</a> (Wavelet Tree)</li>
+        </ul>
+      </div>
+
     </div>
+
     
-    <p class="footnote">Created by Ubiratan Neto<a href="https://github.com/bira37/" target="_blank"><img src="img/github-icon.png" alt="GitHub Icon" style="width: 15px; height: 15px;"></a></p>
+    <p class="footnote">Created by Ubiratan Neto<a href="https://github.com/bira37/" target="_blank"><img src="assets/img/github-icon.png" alt="GitHub Icon" style="width: 15px; height: 15px;"></a></p>
   </body>
   
 </html>

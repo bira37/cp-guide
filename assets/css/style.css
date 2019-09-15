@@ -1,0 +1,141 @@
+.footnote {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 75px;
+  color: rgb(75,75,75);
+}
+
+.title {
+  color: rgb(85,85,85);
+  font-size: 40px;
+  text-align: center;
+}
+
+.subtitle{
+  color: rgb(85,85,85);
+  font-size: 30px;
+  padding: 20px;
+  margin: 0px;
+}
+
+.plain-text{
+  color: rgb(75,75,75);
+  font-size: 20px;
+  padding: 20px;
+  margin: 0px;
+}
+
+
+.navbar {
+  background-color: rgb(85,85,85);
+}
+
+.navbar a {
+  font-size: 16px;
+  color: white !important;
+}
+
+.navbar a:hover {
+  background-color: rgb(120, 120,120) !important;
+}
+
+.dropdown-menu {
+  background-color: rgb(85,85,85);
+}
+
+.dropdown-menu a {
+  padding: 10px 10px !important;
+}
+
+.dropdown-menu a:hover {
+  background-color: rgb(120, 120,120) !important;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: rgb(120, 120,120) !important;
+}
+
+/*.navbar .active a {*/
+/*  color: rgb(85,85,85) !important;*/
+/*}*/
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  /*color: #555;*/
+  background-color: rgb(120, 120,120) !important;
+}
+
+
+/*th, a{*/
+/*  color: rgb(75,75,75);*/
+/*  font-size: 18px;*/
+/*  padding: 10px;*/
+/*  margin: 0px;*/
+/*}*/
+
+/*td, th{*/
+/*  border-top: 1px solid rgb(75,75,75);*/
+/*  border-bottom: 1px solid rgb(75,75,75);*/
+/*  text-align: center;*/
+/*}*/
+
+/*td{*/
+/*  text-align: center;*/
+/*}*/
+
+
+/*table{*/
+/*  border-collapse: collapse;*/
+/*  width: 100%;*/
+/*}*/
+
+/*a{*/
+/*  text-align: center;*/
+/*  text-decoration: none;*/
+/*}*/
+
+/*.extra-links ul{*/
+/*  list-style-type: none;*/
+/*  padding: 0px;*/
+/*  margin: 0;*/
+/*}*/
+
+/*.extra-links p{*/
+/*  font-weight: bold;*/
+/*  padding: 5px 10px;*/
+/*  margin-top: 10px;*/
+/*}*/
+
+/*.extra-links li, .extra-links p{*/
+/*  color: rgb(75,75,75);*/
+/*  font-size: 18px;*/
+/*}*/
+
+/*.resources p{*/
+/*  color: rgb(75,75,75);*/
+/*  font-size: 20px;*/
+/*  padding: 20px;*/
+/*  margin: 0px;*/
+/*}*/
+
+/*.resources li{*/
+/*  color: rgb(75,75,75);*/
+/*  font-size: 20px;*/
+/*}*/
+
+/*.resources ul{*/
+/*  list-style-type: none;*/
+/*}*/
+
+/*.resources a{*/
+/*  text-decoration: underline;*/
+/*}*/
+/*  */
+
+
+
+
+  

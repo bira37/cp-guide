@@ -3,51 +3,80 @@
 
   <head>
   
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>CP Guide</title>
-    <link href="./style.css" type="text/css" rel="stylesheet">
-    
+
+    <link href="assets/css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
   </head>
   
   <body>
-    
+
     <div>
       <!-- Title -->
       <h1 class="title">Competitive Programming Study Guide for C++ Users</h1>
       
       <!-- Link to another language version -->
-      <a style="padding: 3px" href="./index.html" target="_self"><img src="img/us-icon.png" alt="en-us icon"></a> <a style="padding: 3px" href="./index-ptbr.html" target="_self"><img src="img/br-icon.png" alt="pt-br icon"></a>
+      <a style="padding: 3px" href="./index.html" target="_self"><img src="assets/img/us-icon.png" alt="en-us icon"></a>
+      <a style="padding: 3px" href="./pt-br/index.html" target="_self"><img src="assets/img/br-icon.png" alt="pt-br icon"></a>
     </div>
     
     <!-- Navigation Bar -->
-    <ul class="navbar">
-      <li><a href="./index.html">Home Page</a></li>
-      <li><a href="./extra-resources.html">Extra Resources</a></li>
-      <div class="dropdown">
-        <button class="dropdown-button">List of Topics</button>
-        
-        <div class="dropdown-content">
-          <a href="./structures.html">Data Structures</a>
-          <a href="./dp.html">Dynamic Programming</a>
-          <a href="./graphs.html">Graphs</a>
-          <a href="./math.html">Math, Number Theory and Game Theory</a>
-          <a href="./strings.html">String Processing</a>
-          <a href="./geometry.html">Geometry</a>
-          <a href="./others.html">Others</a>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
         </div>
-        
-      </div>
-      
-    </ul>  
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="./index.html">Home Page</a></li>
+            <li><a href="./extra-resources.html">Extra Resources</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                List of Topics <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="./structures.html">Data Structures</a></li>
+                <li><a href="./dp.html">Dynamic Programming</a></li>
+                <li><a href="./graphs.html">Graphs</a></li>
+                <li><a href="./math.html">Math, Number Theory and Game Theory</a></li>
+                <li><a href="./strings.html">String Processing</a></li>
+                <li><a href="./geometry.html">Geometry</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="./others.html">Others</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
     
     <!-- Introduction -->
     <div>
       <h2 class="subtitle">Introduction</h2>
-      <p class="plain-text"> The objective of this guide is to help everyone who is practicing for competitive programming contests. Although there are many guides that contains lots of information about competitive programming, it still hard to find somewhere a compilation of tutorials from different places. To make it easier to find and study a specific topic, here we present a list with links to lessons and explanations for many of them. We also list extra resources that can help while practicing. You can also contribute to this guide, adding a link to your tutorials or to other non-listed materials<a style="color: rgb(75, 75, 75); font-size:20px; padding=0px; text-decoration: underline;" href="https://github.com/bira37/cp-guide">here</a>by pull request.</p> 
+      <p class="plain-text"> The objective of this guide is to help everyone who is practicing for competitive programming contests. Although there are many guides that contains lots of information about competitive programming, it still hard to find somewhere a compilation of tutorials from different places. To make it easier to find and study a specific topic, here we present a list with links to lessons and explanations for many of them. We also list extra resources that can help while practicing. You can also contribute to this guide, adding a link to your tutorials or to other non-listed materials <a style="color: rgb(75, 75, 75); font-size:20px; text-decoration: underline;" href="https://github.com/bira37/cp-guide">here</a> by pull request.</p>
       <p class="plain-text">Each topic is divided into subtopics with tutorials found around the web. All the materials listed are in English or in Portuguese. You don't need to follow it in order. Also, some subtopics from one category can be prerequisite to subtopics from other categories. We assume that you are familiar with basics concepts of programming (like Loops, Arrays, Recursion, Complexity Calculation, Binary Search, etc) and know how to use some structures, like Set, Map, Stack and Queue from C++. Problems for the classic and basic concepts can be easily found on CSES and Neps Academy (listed on extra resources page). For the more advanced topics, most of the tutorials already have suggested problems to solve. Also, more problems can be found on other platforms.</p>
     </div>
     
-    <p class="footnote">Created by Ubiratan Neto <a href="https://github.com/bira37/" target="_blank"><img src="img/github-icon.png" alt="GitHub Icon" style="width: 15px; height: 15px;"></a></p>
+    <p class="footnote">Created by Ubiratan Neto <a href="https://github.com/bira37/" target="_blank"><img src="assets/img/github-icon.png" alt="GitHub Icon" style="width: 15px; height: 15px;"></a></p>
     
   </body>
   
