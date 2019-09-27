@@ -1,54 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>CP Study Guide</title>
+</head>
+<body>
+  <!-- Main Title -->
 
-  <head>
+  <h1 id="title-header">Competitive Programming Study Guide</h1>
   
-    <meta charset="UTF-8">
-    <title>CP Guide</title>
-    <link href="./style.css" type="text/css" rel="stylesheet">
-    
-  </head>
+  <!-- End of Main Title -->
+
+  <!-- Navigation portion of site -->
+
+  <nav class="navbar">
+    <ul class="navbar-list">
+      <li class="navbar-content"><a href="./index.html">Home Page</a></li>
+      <li class="navbar-content"><a href="./en-us/extra-resources.html">Extra Resources</a></li>
+    </ul>
+  </nav>
+  <div class="lang-selector">Change Language: <a href="./index-pt-br.html"><img src="./imgs/br-icon.png" style="height: 0.7rem; width: 1rem;" alt="br-icon" /></a> <a href="./index.html"><img src="./imgs/us-icon.png" style="height: 0.7rem; width: 1rem;" alt="us-icon" /></a> </div>
+
+  <label for="toggle-menu-box" id="toggle-menu-button">Show/Hide Topics</label>
+  <input type="checkbox" id="toggle-menu-box" />
+  <div class="toggle-menu">
+    <ul class="toggle-list">
+      <li class="toggle-content"><a href="./en-us/data-structures.html">Data Structures</a></li>  
+      <li class="toggle-content"><a href="./en-us/dp.html">Dynammic Programming</a></li>
+      <li class="toggle-content"><a href="./en-us/graphs.html">Graphs</a></li>
+      <li class="toggle-content"><a href="./en-us/geometry.html">Geometry</a></li>
+      <li class="toggle-content"><a href="./en-us/math.html">Math, Number Theory and Game Theory</a></li>
+      <li class="toggle-content"><a href="./en-us/strings.html">String Processing</a></li>
+      <li class="toggle-content"><a href="./en-us/others.html">Others</a></li>
+    </ul>
+  </div>
+
+  <!-- End of navigation portion of the site -->
+
+  <!-- Content portion of the site -->
   
-  <body>
-    
-    <div>
-      <!-- Title -->
-      <h1 class="title">Competitive Programming Study Guide for C++ Users</h1>
-      
-      <!-- Link to another language version -->
-      <a style="padding: 3px" href="./index.html" target="_self"><img src="img/us-icon.png" alt="en-us icon"></a> <a style="padding: 3px" href="./index-ptbr.html" target="_self"><img src="img/br-icon.png" alt="pt-br icon"></a>
-    </div>
-    
-    <!-- Navigation Bar -->
-    <ul class="navbar">
-      <li><a href="./index.html">Home Page</a></li>
-      <li><a href="./extra-resources.html">Extra Resources</a></li>
-      <div class="dropdown">
-        <button class="dropdown-button">List of Topics</button>
-        
-        <div class="dropdown-content">
-          <a href="./structures.html">Data Structures</a>
-          <a href="./dp.html">Dynamic Programming</a>
-          <a href="./graphs.html">Graphs</a>
-          <a href="./math.html">Math, Number Theory and Game Theory</a>
-          <a href="./strings.html">String Processing</a>
-          <a href="./geometry.html">Geometry</a>
-          <a href="./others.html">Others</a>
-        </div>
-        
-      </div>
-      
-    </ul>  
-    
-    <!-- Introduction -->
-    <div>
-      <h2 class="subtitle">Introduction</h2>
-      <p class="plain-text"> The objective of this guide is to help everyone who is practicing for competitive programming contests. Although there are many guides that contains lots of information about competitive programming, it still hard to find somewhere a compilation of tutorials from different places. To make it easier to find and study a specific topic, here we present a list with links to lessons and explanations for many of them. We also list extra resources that can help while practicing. You can also contribute to this guide, adding a link to your tutorials or to other non-listed materials<a style="color: rgb(75, 75, 75); font-size:20px; padding=0px; text-decoration: underline;" href="https://github.com/bira37/cp-guide">here</a>by pull request.</p> 
-      <p class="plain-text">Each topic is divided into subtopics with tutorials found around the web. All the materials listed are in English or in Portuguese. You don't need to follow it in order. Also, some subtopics from one category can be prerequisite to subtopics from other categories. We assume that you are familiar with basics concepts of programming (like Loops, Arrays, Recursion, Complexity Calculation, Binary Search, etc) and know how to use some structures, like Set, Map, Stack and Queue from C++. Problems for the classic and basic concepts can be easily found on CSES and Neps Academy (listed on extra resources page). For the more advanced topics, most of the tutorials already have suggested problems to solve. Also, more problems can be found on other platforms.</p>
-    </div>
-    
-    <p class="footnote">Created by Ubiratan Neto <a href="https://github.com/bira37/" target="_blank"><img src="img/github-icon.png" alt="GitHub Icon" style="width: 15px; height: 15px;"></a></p>
-    
-  </body>
+  <div class="page-content">
+    <h2>Introduction</h2>
+    <p> The objective of this guide is to help everyone who is practicing for competitive programming contests. Although there are many guides that contains lots of information about competitive programming, it still hard to find somewhere a compilation of tutorials from different places. To make it easier to find and study a specific topic, here we present a list with links to lessons and explanations for many of them. We also list extra resources that can help while practicing. You can also contribute to this guide, adding a link to your tutorials or to other non-listed materials <a href="https://github.com/bira37/cp-guide">here</a> by pull request.</p> 
+    <p>Each topic is divided into subtopics with tutorials found around the web. All the materials listed are in English or in Portuguese. You don't need to follow it in order. Also, some subtopics from one category can be prerequisite to subtopics from other categories. We assume that you are familiar with basics concepts of programming (like Loops, Arrays, Recursion, Complexity Calculation, Binary Search, etc) and know how to use some structures, like Set, Map, Stack and Queue from C++. Problems for the classic and basic concepts can be easily found on CSES and Neps Academy (listed on extra resources page). For the more advanced topics, most of the tutorials already have suggested problems to solve. Also, more problems can be found on other platforms.</p>
+  </div>
+
+  <!-- End of content portion of the site -->
+
+  <!-- Footer of the site -->
   
+  <footer class="footer">Created by Ubiratan Neto <a href="https://github.com/bira37/"><img src="./imgs/github-icon.png" alt="github-icon" style="width: 1rem; height: 1rem;" /></a></footer>
+  
+  <!-- End of the footer of the site -->
+</body>
 </html>

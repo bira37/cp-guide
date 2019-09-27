@@ -1,0 +1,233 @@
+/* Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255,255,255);
+  font-family: Verdana , Geneva, sans-serif; 
+}
+
+/* End of Body Styling */
+
+/* Main Title Header Styling */
+
+#title-header {
+  color: rgb(80,80,80); 
+  margin-left: 1rem;
+}
+
+/* End of Main Title Header Styling */
+
+/* Navigation Bar Styling */
+
+.navbar {
+  background: rgb(80,80,80);
+  padding: 0.7rem;
+}
+
+.navbar-content{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.navbar-content a {
+  box-sizing: border-box;
+  text-decoration: none;
+  height: 100%;
+  color: rgb(255,255,255);
+  padding: 0.7rem;
+  transition: background 250ms linear;
+}
+
+.navbar-content a:hover{
+  background: rgb(150,150,150);
+  transition: background 250ms linear;
+}
+
+/* End of Navigation Bar Styling */
+
+/* Language Selector Styling */
+
+.lang-selector {
+  float: right;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* End of Language Selector Styling */
+
+/* Toggle Menu Styling */
+
+#toggle-menu-box {
+  display: none;
+}
+
+#toggle-menu-button {
+  box-sizing: border-box;
+  display: block;
+  padding: 0.5rem 0.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 0;
+  background: rgb(80,80,80);
+  border-radius: 0.5rem;
+  width: 10rem;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: background 250ms linear;
+}
+
+.toggle-menu {
+  float: left;
+  width: 0;
+  transform: translateX(-100vw);
+  transition: all 500ms ease-in-out;
+}
+
+#toggle-menu-box:checked + .toggle-menu {
+  transform: translateX(0);
+  transition: all 300ms ease-in-out;
+}
+
+.toggle-list {
+  list-style-type: none;
+  margin-top: 0;
+  margin-left: 1rem;
+  padding-left: 0;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+
+.toggle-content{
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.toggle-content a {
+  background: rgb(80,80,80);
+  box-sizing: border-box;
+  padding: 1rem 1rem;
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(255,255,255);
+  border-bottom: 0.1rem solid rgba(255,255,255, 0.3);
+  transition: background 250ms linear;
+}
+
+.toggle-content:first-child a{
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.toggle-content:last-child a{
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+#toggle-menu-button:hover {
+  background: rgb(150,150,150);
+  transition: background 250ms linear;
+}
+
+.toggle-content a:hover{
+  background: rgb(150,150,150);
+  transition: background 250ms linear;
+}
+
+/* End of Toggle Menu Styling */
+
+/* Footer Styling */
+
+.footer {
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+/* End of Footer Styling */
+
+/* Page Content Styling */
+
+.page-content {
+  margin: 1rem;
+}
+
+.page-content h2, h3{
+  color: rgb(80,80,80);
+}
+
+.page-content a{
+  color: rgb(42, 16, 172);
+  transition: color 150ms ease-in-out;
+}
+
+.page-content a:visited {
+  color: rgb(109, 22, 109);
+}
+
+.page-content a:hover {
+  color: rgb(133, 113, 235);
+  transition: color 150ms ease-in-out;
+}
+
+.line-division {
+  border: 0.1rem solid rgb(80,80,80);
+}
+
+/* End of Page Content Styling */
+
+/* Topic Container Styling */
+
+.topic-container {
+  display: flex;
+  margin: 1rem 0;
+  overflow: scroll;
+}
+
+.topic-container h3{
+  margin: 0;
+  padding: 0;
+}
+
+.topic-container a{
+  padding: 0.5rem 1rem;
+  background: rgb(80,80,80);
+  color: rgb(255,255,255);
+  margin: 0;
+  border-right: 0.1rem solid rgba(255,255,255, 0.3);
+  transition: background 250ms linear;
+}
+
+.topic-container a:first-child{
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.topic-container a:last-child{
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.topic-container a:hover{
+  background: rgb(150,150,150);
+  color: rgb(255,255,255);
+  transition: background 250ms linear;
+}
+
+.topic-container a:visited{
+  color: rgb(255, 255, 255);
+}
+
+/* End of Topic Container Styling */
