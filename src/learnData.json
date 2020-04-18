@@ -1,0 +1,985 @@
+[
+  {
+    "name": "Dynammic Programming",
+    "topics": [
+      {
+        "title": "Introduction to Dynammic Programming",
+        "difficulty": 0,
+        "links": [
+          {
+            "site": "Brilliant",
+            "url": "https://brilliant.org/wiki/problem-solving-dynamic-programming/"
+          }
+        ]
+      },
+      {
+        "title": "Coin Change Problem",
+        "difficulty": 1,
+        "links": [
+          {
+            "site": "Geeks for Geeks",
+            "url": "https://www.geeksforgeeks.org/understanding-the-coin-change-problem-with-dynamic-programming/"
+          }
+        ]
+      },
+      {
+        "title": "Knapsack Problem",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "Geeks for Geeks",
+            "url": "https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/"
+          }
+        ]
+      },
+      {
+        "title": "Longest Common Subsequence",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "Tutorials Point",
+            "url": "https://www.tutorialspoint.com/design_and_analysis_of_algorithms/design_and_analysis_of_algorithms_longest_common_subsequence.htm"
+          }
+        ]
+      },
+      {
+        "title": "Edit Distance",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "Techie Delight",
+            "url": "https://www.techiedelight.com/levenshtein-distance-edit-distance-problem/"
+          }
+        ]
+      },
+      {
+        "title": "Subset Sum",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "Geeks for Geeks",
+            "url": "https://www.geeksforgeeks.org/subset-sum-problem-dp-25/"
+          },
+          {
+            "site": "Geeks for Geeks (Bitset Variation)",
+            "url": "https://www.geeksforgeeks.org/subset-sum-queries-using-bitset/"
+          }
+        ]
+      },
+      {
+        "title": "Bitmask DP",
+        "difficulty": 4,
+        "links": [
+          {
+            "site": "Hackerearth",
+            "url": "https://www.hackerearth.com/practice/algorithms/dynamic-programming/bit-masking/tutorial/"
+          }
+        ]
+      },
+      {
+        "title": "Digit DP",
+        "difficulty": 4,
+        "links": [
+          {
+            "site": "Geeks for Geeks",
+            "url": "https://www.geeksforgeeks.org/digit-dp-introduction/"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Topics",
+        "difficulty": 5,
+        "links": [
+          {
+            "site": "DP on Trees - Codeforces",
+            "url": "https://codeforces.com/blog/entry/20935"
+          },
+          {
+            "site": "DP Tricks - Codeforces",
+            "url": "https://codeforces.com/blog/entry/47764"
+          },
+          {
+            "site": "DP Optimizations - Codeforces",
+            "url": "https://codeforces.com/blog/entry/8219"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mathematics and Number Theory",
+    "topics": [
+      {
+        "title": "Euclid's GCD Algorithm",
+        "difficulty": 1,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/algebra/euclid-algorithm.html"
+          }
+        ]
+      },
+      {
+        "title": "Linear Diophantine Equations",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/algebra/linear-diophantine-equation.html"
+          }
+        ]
+      },
+      {
+        "title": "Prime Numbers with Sieve of Eratosthenes",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "Geeks for Geeks",
+            "url": "https://www.geeksforgeeks.org/sieve-of-eratosthenes/"
+          },
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html"
+          }
+        ]
+      },
+      {
+        "title": "Primality Test",
+        "difficulty": 4,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/algebra/primality_tests.html"
+          }
+        ]
+      },
+      {
+        "title": "Fast Exponentiation",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/algebra/binary-exp.html"
+          },
+          {
+            "site": "Geeks for Geeks",
+            "url": "https://www.geeksforgeeks.org/exponential-squaring-fast-modulo-multiplication/"
+          }
+        ]
+      },
+      {
+        "title": "Modular Inverse",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/algebra/module-inverse.html"
+          },
+          {
+            "site": "Geeks for Geeks",
+            "url": "https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/"
+          }
+        ]
+      },
+      {
+        "title": "Basic Combinatorics",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "Geeks for Geeks (Binomial Coefficients 1)",
+            "url": "https://www.geeksforgeeks.org/binomial-coefficient-dp-9/"
+          },
+          {
+            "site": "Geeks for Geeks (Binomial Coefficients 2)",
+            "url": "https://www.geeksforgeeks.org/queries-of-ncrp-in-o1-time-complexity/"
+          },
+          {
+            "site": "Brilliant (Stars and Bars)",
+            "url": "https://brilliant.org/wiki/integer-equations-star-and-bars/"
+          },
+          {
+            "site": "Geeks for Geeks (Inclusion-Exclusion Principle)",
+            "url": "https://www.geeksforgeeks.org/inclusion-exclusion-principle-and-programming-applications/"
+          }
+        ]
+      },
+      {
+        "title": "Game Theory",
+        "difficulty": 4,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/game_theory/sprague-grundy-nim.html"
+          },
+          {
+            "site": "Game Theory by Thomas S. Ferguson",
+            "url": "https://www.math.ucla.edu/~tom/Game_Theory/comb.pdf"
+          },
+          {
+            "site": "Nim Games by William Gasarch",
+            "url": "https://www.cs.umd.edu/users/gasarch/TOPICS/nimnotes.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Topics",
+        "difficulty": 5,
+        "links": [
+          {
+            "site": "Codeforces (Chinese Remainder Theorem",
+            "url": "https://codeforces.com/blog/entry/61290"
+          },
+          {
+            "site": "CP-Algorithms (Euler's Totient)",
+            "url": "https://cp-algorithms.com/algebra/phi-function.html"
+          },
+          {
+            "site": "CP-Algorithms (Number and Sum of Divisors)",
+            "url": "https://cp-algorithms.com/algebra/divisors.html"
+          },
+          {
+            "site": "CP-Algorithms (Integration with Simpson's Rule)",
+            "url": "https://cp-algorithms.com/num_methods/simpson-integration.html"
+          },
+          {
+            "site": "CP-Algorithms (Power of Factorial Divisor)",
+            "url": "https://cp-algorithms.com/algebra/factorial-divisors.html"
+          },
+          {
+            "site": "Codeforces (Sieve Variations)",
+            "url": "https://codeforces.com/blog/entry/22229"
+          },
+          {
+            "site": "Codeforces (Fast Factorization using Sieve)",
+            "url": "https://codeforces.com/blog/entry/7262"
+          },
+          {
+            "site": "CP-Algorithms (Fast Fourier Transform)",
+            "url": "https://cp-algorithms.com/algebra/fft.html"
+          },
+          {
+            "site": "Codeforces (Fast Fourier Transform)",
+            "url": "https://codeforces.com/blog/entry/43499"
+          },
+          {
+            "site": "CP-Algorithms (Discrete Logarithm",
+            "url": "https://cp-algorithms.com/algebra/discrete-log.html"
+          },
+          {
+            "site": "CP-Algorithms (Discrete Root)",
+            "url": "https://cp-algorithms.com/algebra/discrete-root.html"
+          },
+          {
+            "site": "Codeforces (Mobius Inversion)",
+            "url": "https://codeforces.com/blog/entry/53925"
+          },
+          {
+            "site": "CP-Algorithms (Solving Linear Equations)",
+            "url": "https://cp-algorithms.com/linear_algebra/linear-system-gauss.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Data Structures",
+    "topics": [
+      {
+        "title": "Disjoint Set Union",
+        "difficulty": 1,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/data_structures/disjoint_set_union.html"
+          },
+          {
+            "site": "Hackerearth",
+            "url": "https://www.hackerearth.com/pt-br/practice/notes/disjoint-set-union-union-find/"
+          }
+        ]
+      },
+      {
+        "title": "Segment Trees",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/data_structures/segment_tree.html"
+          }
+        ]
+      },
+      {
+        "title": "Binary Indexed Trees",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "Topcoder",
+            "url": "https://www.topcoder.com/community/competitive-programming/tutorials/binary-indexed-trees/"
+          },
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/data_structures/fenwick.html"
+          }
+        ]
+      },
+      {
+        "title": "Binary Indexed Trees 2D",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "Topcoder",
+            "url": "https://www.topcoder.com/community/competitive-programming/tutorials/binary-indexed-trees/#2d"
+          },
+          {
+            "site": "OpenGenus IQ",
+            "url": "https://iq.opengenus.org/2d-fenwick-tree/"
+          }
+        ]
+      },
+      {
+        "title": "Sparse Tables",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "Hackerearth",
+            "url": "https://www.hackerearth.com/practice/notes/sparse-table/"
+          },
+          {
+            "site": "Adilet's Blog",
+            "url": "http://adilet.org/blog/sparse-table/"
+          },
+          {
+            "site": "Brilliant",
+            "url": "https://brilliant.org/wiki/sparse-table/"
+          }
+        ]
+      },
+      {
+        "title": "Square Root Decomposition",
+        "difficulty": 4,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/data_structures/sqrt_decomposition.html"
+          }
+        ]
+      },
+      {
+        "title": "Treaps",
+        "difficulty": 4,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/data_structures/treap.html"
+          }
+        ]
+      },
+      {
+        "title": "Wavelet Trees",
+        "difficulty": "5",
+        "links": [
+          {
+            "site": "Codeforces",
+            "url": "http://rachitiitr.blogspot.com/2017/06/wavelet-trees-wavelet-trees-editorial.html"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Topics",
+        "difficulty": 5,
+        "links": [
+          {
+            "site": "Codeforces (Segment Trees Variations)",
+            "url": "https://codeforces.com/blog/entry/15890"
+          },
+          {
+            "site": "Codeforces (Segment Tree Beats)",
+            "url": "https://codeforces.com/blog/entry/57319"
+          },
+          {
+            "site": "Codeforces (Range Minimum Query 2D Using Sparse Tables)",
+            "url": "https://codeforces.com/blog/entry/45485"
+          },
+          {
+            "site": "Codeforces (Efficiently search on BIT)",
+            "url": "https://codeforces.com/blog/entry/61364"
+          },
+          {
+            "site": "Codeforces (Min/Max over fixed size multi-dimensional arrays)",
+            "url": "https://codeforces.com/blog/entry/53810"
+          },
+          {
+            "site": "Codeforces (Disjoint Set Union on Trees)",
+            "url": "https://codeforces.com/blog/entry/44351"
+          },
+          {
+            "site": "CP-Algorithms (DSU on Trees)",
+            "url": "https://cp-algorithms.com/data_structures/sqrt-tree.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "String Processing",
+    "topics": [
+      {
+        "title": "Knuth-Morris-Pratt Algorithm",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/string/prefix-function.html"
+          },
+          {
+            "site": "Brilliant",
+            "url": "https://brilliant.org/wiki/knuth-morris-pratt-algorithm/"
+          }
+        ]
+      },
+      {
+        "title": "Z-Function",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/string/z-function.html"
+          },
+          {
+            "site": "Codeforces",
+            "url": "https://codeforces.com/blog/entry/3107"
+          }
+        ]
+      },
+      {
+        "title": "Tries",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "Brilliant",
+            "url": "https://brilliant.org/wiki/tries/"
+          },
+          {
+            "site": "Quora",
+            "url": "https://www.quora.com/q/threadsiiithyderabad/Tutorial-on-Trie-and-example-problems"
+          }
+        ]
+      },
+      {
+        "title": "Manacher's Algorithm",
+        "difficulty": 1,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/string/manacher.html"
+          },
+          {
+            "site": "Hackerearth",
+            "url": "https://www.hackerearth.com/practice/algorithms/string-algorithm/manachars-algorithm/tutorial/"
+          }
+        ]
+      },
+      {
+        "title": "String Hashing",
+        "difficulty": 3,
+        "links": [
+          {
+            "name": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/string/string-hashing.html"
+          }
+        ]
+      },
+      {
+        "title": "Palindromic Tree",
+        "difficulty": 4,
+        "links": [
+          {
+            "site": "OpenGenus IQ",
+            "url": "https://iq.opengenus.org/palindromic-tree-eertree/"
+          }
+        ]
+      },
+      {
+        "title": "Aho-Corasick",
+        "difficulty": 5,
+        "links": [
+          {
+            "site": "Toptal",
+            "url": "https://www.toptal.com/algorithms/aho-corasick-algorithm"
+          },
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/string/aho_corasick.html"
+          }
+        ]
+      },
+      {
+        "title": "Suffix Array",
+        "difficulty": 5,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/string/suffix-array.html"
+          },
+          {
+            "site": "Codechef",
+            "url": "https://discuss.codechef.com/t/a-tutorial-on-suffix-arrays/2950"
+          }
+        ]
+      },
+      {
+        "title": "Suffix Automata",
+        "difficulty": 5,
+        "links": [
+          {
+            "site": "Codeforces",
+            "url": "https://codeforces.com/blog/entry/20861"
+          },
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/string/suffix-automaton.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Graphs",
+    "topics": [
+      {
+        "title": "Introduction to Graphs",
+        "difficulty": 0,
+        "links": [
+          {
+            "site": "Brilliant",
+            "url": "https://brilliant.org/wiki/graphs/"
+          }
+        ]
+      },
+      {
+        "title": "Breadth-First Search",
+        "difficulty": 1,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/breadth-first-search.html"
+          },
+          {
+            "site": "Hackerearth",
+            "url": "https://www.hackerearth.com/pt-br/practice/algorithms/graphs/breadth-first-search/tutorial/"
+          },
+          {
+            "site": "Codeforces (0-1 BFS Variation)",
+            "url": "https://codeforces.com/blog/entry/22276"
+          }
+        ]
+      },
+      {
+        "title": "Depth-First Search",
+        "difficulty": 1,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/depth-first-search.html"
+          },
+          {
+            "site": "Hackerearth",
+            "url": "https://www.hackerearth.com/pt-br/practice/algorithms/graphs/depth-first-search/tutorial/"
+          }
+        ]
+      },
+      {
+        "title": "Dijkstra's Shortest Path Algorithm",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "Brilliant",
+            "url": "https://brilliant.org/wiki/dijkstras-short-path-finder/"
+          },
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/dijkstra.html"
+          }
+        ]
+      },
+      {
+        "title": "Bellman-Ford's Shortest Path Algorithm",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/bellman_ford.html"
+          },
+          {
+            "site": "Programiz",
+            "url": "https://www.programiz.com/dsa/bellman-ford-algorithm"
+          }
+        ]
+      },
+      {
+        "title": "Floyd-Warshall's Shortest Path Algorithm",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html"
+          },
+          {
+            "site": "Brilliant",
+            "url": "https://brilliant.org/wiki/floyd-warshall-algorithm/"
+          }
+        ]
+      },
+      {
+        "title": "Minimum Spanning Tree",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "Hackerearth",
+            "url": "https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/"
+          }
+        ]
+      },
+      {
+        "title": "Bridges and Articulation Points",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "CP-Algorithms (Bridges)",
+            "url": "https://cp-algorithms.com/graph/bridge-searching.html"
+          },
+          {
+            "site": "CP-Algorithms (Articulation Points)",
+            "url": "https://cp-algorithms.com/graph/cutpoints.html"
+          }
+        ]
+      },
+      {
+        "title": "Strongly Connected Components",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/strongly-connected-components.html"
+          },
+          {
+            "site": "OpenGenus IQ",
+            "url": "https://iq.opengenus.org/tarjans-algorithm/"
+          }
+        ]
+      },
+      {
+        "title": "Bipartite Graphs",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/bipartite-check.html"
+          }
+        ]
+      },
+      {
+        "title": "Topological Sort",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/topological-sort.html"
+          },
+          {
+            "site": "Geeks for Geeks",
+            "url": "https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/"
+          }
+        ]
+      },
+      {
+        "title": "Eulerian Path",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/euler_path.html"
+          }
+        ]
+      },
+      {
+        "title": "Edmond's Karp Maximum Flow Algorithm",
+        "difficulty": 4,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/edmonds_karp.html"
+          }
+        ]
+      },
+      {
+        "title": "Dinic's Maximum Flow Algorithm",
+        "difficulty": 5,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/dinic.html"
+          }
+        ]
+      },
+      {
+        "title": "Lowest Common Ancestor",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "Topcoder",
+            "url": "https://www.topcoder.com/community/competitive-programming/tutorials/range-minimum-query-and-lowest-common-ancestor/"
+          },
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/lca_binary_lifting.html"
+          }
+        ]
+      },
+      {
+        "title": "Heavy Light-Decomposition",
+        "difficulty": 4,
+        "links": [
+          {
+            "site": "Anudeep's Blog",
+            "url": "https://blog.anudeep2011.com/heavy-light-decomposition/"
+          },
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/hld.html"
+          }
+        ]
+      },
+      {
+        "title": "Centroid Decomposition",
+        "difficulty": 5,
+        "links": [
+          {
+            "site": "Medium (Carpanese's Blog)",
+            "url": "https://medium.com/carpanese/an-illustrated-introduction-to-centroid-decomposition-8c1989d53308"
+          }
+        ]
+      },
+      {
+        "title": "2-SAT",
+        "difficulty": 4,
+        "links": [
+          {
+            "site": "Codeforces",
+            "url": "https://codeforces.com/blog/entry/16205"
+          },
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/graph/2SAT.html"
+          }
+        ]
+      },
+      {
+        "title": "Dynammic Connectivity",
+        "difficulty": 5,
+        "links": [
+          {
+            "site": "Codeforces",
+            "url": "https://codeforces.com/blog/entry/15296"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Geometry",
+    "topics": [
+      {
+        "title": "Basic Computational Geometry",
+        "difficulty": 1,
+        "links": [
+          {
+            "site": "Topcoder",
+            "url": "https://www.topcoder.com/community/competitive-programming/tutorials/geometry-concepts-basic-concepts/"
+          },
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/geometry/basic-geometry.html"
+          }
+        ]
+      },
+      {
+        "title": "2D Intersection Problems",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "CP-Algorithms (Line-Line)",
+            "url": "https://cp-algorithms.com/geometry/lines-intersection.html"
+          },
+          {
+            "site": "CP-Algorithms (Segment-Line)",
+            "url": "https://cp-algorithms.com/geometry/segments-intersection.html"
+          },
+          {
+            "site": "CP-Algorithms (Circle-Line)",
+            "url": "https://cp-algorithms.com/geometry/circle-line-intersection.html"
+          },
+          {
+            "site": "CP-Algorithms (Circle-Circle)",
+            "url": "https://cp-algorithms.com/geometry/circle-circle-intersection.html"
+          }
+        ]
+      },
+      {
+        "title": "Convex Hull",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "CP-Algorithms (Graham Method)",
+            "url": "https://cp-algorithms.com/geometry/grahams-scan-convex-hull.html"
+          },
+          {
+            "site": "Hackerrank (Monotone Chain)",
+            "url": "https://www.hackerrank.com/topics/convex-hull"
+          }
+        ]
+      },
+      {
+        "title": "2D Closest Pair of Points",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/geometry/nearest_points.html"
+          },
+          {
+            "site": "Geeks for Geeks",
+            "url": "https://www.geeksforgeeks.org/closest-pair-of-points-using-divide-and-conquer-algorithm/"
+          }
+        ]
+      },
+      {
+        "title": "Pick's Theorem",
+        "difficulty": 1,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/geometry/picks-theorem.html"
+          }
+        ]
+      },
+      {
+        "title": "Convex Hull Trick",
+        "difficulty": 5,
+        "links": [
+          {
+            "site": "PEGWiki",
+            "url": "http://wcipeg.com/wiki/Convex_hull_trick"
+          },
+          {
+            "site": "Codeforces",
+            "url": "https://codeforces.com/blog/entry/63823"
+          },
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/geometry/convex_hull_trick.html"
+          }
+        ]
+      },
+      {
+        "title": "Compilation of Polygon Algorithms",
+        "difficulty": 3,
+        "links": [
+          {
+            "site": "Codeforces",
+            "url": "https://codeforces.com/blog/entry/48868"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Topics",
+        "difficulty": 5,
+        "links": [
+          {
+            "site": "vlecomte's Handbook of Geometry",
+            "url": "https://vlecomte.github.io/cp-geo.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Uncategorized",
+    "topics": [
+      {
+        "title": "Bit Manipulation Tricks",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "Topcoder",
+            "url": "https://www.topcoder.com/community/competitive-programming/tutorials/a-bit-of-fun-fun-with-bits/"
+          }
+        ]
+      },
+      {
+        "title": "Useful C++ Tricks",
+        "difficulty": 1,
+        "links": [
+          {
+            "site": "Codeforces",
+            "url": "https://codeforces.com/blog/entry/15643"
+          }
+        ]
+      },
+      {
+        "title": "Ternary Search",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "CP-Algorithms (Search on Floating Numbers)",
+            "url": "https://cp-algorithms.com/num_methods/ternary_search.html"
+          },
+          {
+            "site": "Codeforces (Search on Integers)",
+            "url": "https://codeforces.com/blog/entry/43440"
+          }
+        ]
+      },
+      {
+        "title": "Parallel Binary Search",
+        "difficulty": 5,
+        "links": [
+          {
+            "site": "Codeforces",
+            "url": "https://codeforces.com/blog/entry/45578"
+          }
+        ]
+      },
+      {
+        "title": "Longest Increasing Subsequence",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "CP-Algorithms",
+            "url": "https://cp-algorithms.com/sequences/longest_increasing_subsequence.html"
+          }
+        ]
+      },
+      {
+        "title": "Inversion Count",
+        "difficulty": 2,
+        "links": [
+          {
+            "site": "Geeks for Geeks",
+            "url": "https://www.geeksforgeeks.org/counting-inversions/"
+          }
+        ]
+      },
+      {
+        "title": "C++ Advanced Tricks",
+        "difficulty": 5,
+        "links": [
+          {
+            "site": "Codeforces",
+            "url": "https://codeforces.com/blog/entry/48417"
+          }
+        ]
+      }
+    ]
+  }
+]

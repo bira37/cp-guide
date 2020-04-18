@@ -1,0 +1,19 @@
+@import "../Styles/variables.scss";
+.wrapper {
+  @include fade-animation;
+  margin-bottom: 8rem;
+}
+
+.subtitle {
+  margin-top: 1.5 * $defaultMargin;
+  margin-left: $defaultMargin;
+  color: $secondaryColor;
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}

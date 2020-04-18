@@ -1,0 +1,33 @@
+$secondaryColor: #6e8894;
+$primaryColor: #ceeddb;
+$ternaryColor: #2e6171;
+$quaternaryColor: #beb8eb;
+$footerBackground: #464655;
+$defaultMargin: 1.5rem;
+
+@keyframes drop-entrance {
+  0% {
+    max-height: 0;
+  }
+  100% {
+    max-height: 100%;
+  }
+}
+
+@mixin drop-animation {
+  animation: drop-entrance 700ms ease-in;
+  @content;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@mixin fade-animation {
+  animation: fade-in 500ms ease-in;
+}
