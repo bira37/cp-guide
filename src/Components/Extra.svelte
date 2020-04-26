@@ -78,9 +78,7 @@
   </ul>
   <p class="additional">
     Also, if you are stuck in a problem and wants to see the solution, check out
-    <a href="https://github.com/bira37/cp-solutions-library">
-      this repository.
-    </a>
+    <a href="https://github.com/bira37/problem-solutions">this repository.</a>
     Here you can find the solution for more than 1000 problems from my own
     training sessions and from other contributors. It is regularly updated with
     new solutions. It is open for contribution, to make it bigger and offer
